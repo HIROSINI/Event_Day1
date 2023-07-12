@@ -1,0 +1,280 @@
+body
+{
+    background-color: lightblue;
+}
+*
+{
+    text-decoration: none;
+}
+.are
+{
+    margin-left: 145px;
+}
+.att
+{
+    margin-left: 110px;
+    background-color: #0b7dda;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 17px;
+}
+.org
+{
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #0b7dda;
+    height: 40px;
+    font-size: 17px;
+}
+.att:hover
+{
+    background-color: #ff4da6;
+}
+.org:hover
+{
+    background-color: #ff4da6;
+}
+.hel
+{
+    margin-top: 50px;
+    margin-left: 550px;
+    font-size: 20px;
+    color: darkblue;
+    font-weight: 800;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    margin-top: -30px;
+    background-image: linear-gradient(to right,yellow,orange);
+}
+li 
+{
+    /* margin-top: -40px; */
+    float: right;
+    font-weight: 800;
+}
+.pic
+{
+    margin-top: 30px;
+    height: 400px;
+    margin-left: 800px;
+}
+div.scroll-container 
+{
+    margin-left: 90px;
+    margin-top: -410px;
+    box-shadow: 7px 5px rgb(55, 100, 224);
+    background-color: darkblue;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    width: 33.5%;
+}  
+div.scroll-container img 
+{
+    padding: 10px;
+}
+.nav1
+{
+    margin-top: -120px;
+    padding: 50px;
+    padding-left: 10px;
+}
+li a
+{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+li :hover
+{
+    background-color: red;
+    height: 50px;
+}
+.idoHome
+{
+    font-weight: 600;
+    font-style: italic;
+    margin-left: -1000px;
+    font-size: 30px;
+    padding-top: 5px;
+    color: red;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+} 
+.foot1
+{
+    float: right;
+    padding-right: 10px;
+} 
+.foot2
+{
+    float: right;
+    padding-right: 10px;
+} 
+.foot3
+{
+    float: right;
+    padding-right: 10px;
+} 
+.foot4
+{
+    float: right;
+    padding-right: 475px;
+} 
+.foot5
+{
+    padding-right: 600px;
+} 
+.foot6
+{
+    padding-left: 200px;
+} 
+footer
+{
+    background-color: #ff4da6;
+    padding-left: 440px;
+    height: 52px;
+    width: 100%;
+    font-weight: 700;
+    /* margin-top: 655px; */
+    bottom: 0;
+    position: fixed;
+}
+.dropbtn 
+{
+    background-color: yellow;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 160px;
+    height: 60px;
+}
+.dropdown 
+{
+    margin-top: -60px;
+    position: absolute;
+    display: inline-block;
+}
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: lightblue}
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: darkblue;
+    color: #f1f1f1;
+}
+@keyframes glow 
+{
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+/* @media screen and (max-height: 450px) 
+{
+    .side-panel {padding-top: 15px;}
+    .side-panel a {font-size: 18px;}
+} */
+/* .side-panel 
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(94, 94, 206);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.side-panel a 
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+    display: block;
+    transition: 0.3s;
+}
+.side-panel a:hover, .offcanvas a:focus
+{
+    color: darkblue;
+}
+.close-side-bar 
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+span
+{
+    position: relative;
+    top:15px;
+    right:1410px;
+} */
+* 
+{
+    box-sizing: border-box;
+}  
+form.example input[type=text]
+{
+    margin-left: 460px;
+    margin-top: -65px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    background: #f1f1f1;
+}  
+form.example button 
+{
+    margin-left: 660px;
+    margin-top: -65px;
+    float: left;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+} 
+form.example button:hover 
+{
+    background: #0b7dda;
+}
+form.example::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
